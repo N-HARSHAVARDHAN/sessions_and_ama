@@ -330,7 +330,7 @@ Uses:
 
 JavaScript does not support multiple inheritance directly.
 
-❌ Invalid:
+Invalid:
 
 ```js
 class A {}
@@ -339,7 +339,7 @@ class B {}
 class C extends A, B {}
 ```
 
-✅ Alternative: Mixins
+Alternative: Mixins
 
 ```js
 const canEat = {
